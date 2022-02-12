@@ -59,12 +59,12 @@ body {
   border-style: solid;
   align-items: center;
   justify-content: space-between;
-  height: 18rem;
+  height: 24rem;
   background: #2e2d2c;
 }
 
 .nft-img {
-  height: 200px;
+  height: 290px;
 }
 
 .nft-button {

@@ -30,7 +30,7 @@ export default function InStake({ data, loading, unStakeNFT }) {
                     <CardImg
                       src={val.data.image}
                       top
-                      width="100px"
+                      // width="120px"
                       alt="Not found"
                       className="nft-img"
                     />
