@@ -92,6 +92,7 @@ body .wallet-adapter-modal-title {
 
 .sub {
   letter-spacing: 1rem;
+  font-size: 25px;
 }
 
 
@@ -135,7 +136,7 @@ body .wallet-adapter-modal-title {
 
 .tab {
   margin:0 5px;
-  font-size:25px;
+  font-size:20px;
 }
 
 .glitch {
