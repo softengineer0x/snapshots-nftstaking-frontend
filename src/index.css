@@ -14,12 +14,12 @@ code {
 
 @font-face {
   font-family: 'Common Pixel';
-  src: url("./assets/fonts/common-pixel.woff") format("woff2");
+  src: url("./assets/fonts/paladins.woff") format("woff");
 }
 
 @font-face {
   font-family: 'TheGoodMonolith';
-  src: url("./assets/fonts/TheGoodMonolith.woff") format("woff2");
+  src: url("./assets/fonts/paladins.woff") format("woff");
 }
 
 h1 {
@@ -47,11 +47,11 @@ body .App-header .btn-wallet-connect {
   font-weight: unset;
   height: unset;
   line-height: 35px;
-  border: 1px solid #ff3b46;
+  border: 1px solid #A89E9A;
   display: inline-flex;
   border-radius: 3px;
   background: no-repeat center/100% 100% url(./assets/img/button\ backer\ bar.png);
-  color: #ff3b46;
+  color: #A89E9A;
 }
 
 body .App-header .btn-wallet-connect:hover {
@@ -83,7 +83,7 @@ body .wallet-adapter-modal-title {
 
 .red-text {
   font-family: Common Pixel, sans-serif;
-  color: #ff3b46 !important;
+  color: #A89E9A !important;
 }
 
 .digital {
@@ -104,7 +104,7 @@ body .wallet-adapter-modal-title {
 
 .tab-container {
   width: 100%;
-  border-bottom: 1px solid #ff3b46;
+  border-bottom: 1px solid #A89E9A;
   display: flex;
   justify-content: center;
 }
@@ -117,7 +117,7 @@ body .wallet-adapter-modal-title {
 
 .tab-container .tabs .tab{
   padding: 0.3rem 1rem;
-  border: 1px solid #ff3b46;
+  border: 1px solid #A89E9A;
   border-bottom: 0;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -129,15 +129,20 @@ body .wallet-adapter-modal-title {
 }
 
 .tab-container .tab.red-text.active{
-  background-color: #ff3b46;
+  background-color: #A89E9A;
   color: white !important;
+}
+
+.tab {
+  margin:0 5px;
+  font-size:20px;
 }
 
 .glitch {
   position: relative;
   color: #fff;
   font-size: 4em;
-  animation: glitch-skew 1s linear infinite alternate-reverse;
+  /* animation: glitch-skew 1s linear infinite alternate-reverse; */
 }
 
 .glitch:after, .glitch:before {
@@ -153,14 +158,14 @@ body .wallet-adapter-modal-title {
   left: 0;
   left: 2px;
   text-shadow: -2px 0 #ff4a54;
-  animation: glitch-anim 5s linear infinite alternate-reverse;
+  /* animation: glitch-anim 5s linear infinite alternate-reverse; */
 }
 
 .glitch:after {
   left: 0;
   left: -2px;
   text-shadow: -2px 0 #ff4a54, 2px 2px #ff4a54;
-  animation: glitch-anim2 5s linear infinite alternate-reverse;
+  /* animation: glitch-anim2 5s linear infinite alternate-reverse; */
 }
 
 @-webkit-keyframes glitch-anim {

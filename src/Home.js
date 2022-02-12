@@ -623,7 +623,7 @@ const Home = () => {
         <div className="main">
             <Row style={{ margin: 0 }}>
                 <div className="App-header">
-                    <h1 className="glitch" data-text="SNAPSHOTS BY ZILLA VS KONG">SNAPSHOTS BY ZILLA VS KONG</h1>
+                    <h1 className="glitch" data-text="">SNAPSHOTS BY ZILLA VS KONG</h1>
                     <p className='sub red-text'>STAKE YOUR NFTS</p>
                     {
                         wallet.publicKey ? <h4 className='digital red-text mv-25'>94.79% NFTS STAKED</h4> : null
